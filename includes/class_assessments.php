@@ -236,7 +236,16 @@ class assessments{
                     <td>'.$industry.'</td>
                     <td>'.$employees.'</td>
                     <td>'.$turnover.'</td>
-                    <td>'.$i_assess.'</td>
+                    <td>
+                        <div class="dropdown">
+                            <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                                Dropdown button
+                            </button>
+                            <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                                <li class="dropdown-item">'.$i_assess.'</li>
+                            </ul>
+                        </div>
+                    </td>
                 </tr>
                 ';
             }
