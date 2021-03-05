@@ -239,7 +239,7 @@ class assessments{
                     <td>
                         <div class="dropdown">
                             <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
-                                Dropdown button
+                                View Items
                             </button>
                             <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
                                 <li class="dropdown-item" style="max-width: 400px; overflow: scroll;">'.$i_assess.'</li>
