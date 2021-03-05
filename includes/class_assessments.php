@@ -242,7 +242,7 @@ class assessments{
                                 Dropdown button
                             </button>
                             <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
-                                <li class="dropdown-item">'.$i_assess.'</li>
+                                <li class="dropdown-item" style="max-width: 400px; overflow: scroll;">'.$i_assess.'</li>
                             </ul>
                         </div>
                     </td>
