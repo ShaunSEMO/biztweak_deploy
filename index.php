@@ -131,7 +131,7 @@
     <footer class="container-fluid" style="background: #54cdd2">
         <div class="row">
             <div class="col-12 text-center">
-                <p class="lead">&copy; 2020 Biz Tweak. All rights reserved</p>
+                <p class="lead">&copy; 2021 Biz Tweak. All rights reserved</p>
             </div>
         </div>
     </footer>

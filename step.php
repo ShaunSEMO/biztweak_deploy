@@ -80,7 +80,7 @@ require_once 'includes/class_registration.php';
 
 				<!-- copyright -->
 				<div class="copy-right text-center">
-					<p>© 2020 Biz Tweak. All rights reserved
+					<p>© 2021 Biz Tweak. All rights reserved
 				</div>
 				<!-- //copyright -->
 			</div>

@@ -166,7 +166,7 @@
 	</div>
 
 	<nav class="navbar fixed-bottom navbar-light bg-light">
-  		<a class="navbar-brand" href="#">© 2020 Biz Tweak. All rights reserved</a>
+  		<a class="navbar-brand" href="#">© 2021 Biz Tweak. All rights reserved</a>
 	</nav>
 
 	<div class="modal fade in" id="user-modal">

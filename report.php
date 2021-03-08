@@ -183,6 +183,9 @@ chart.render();
 			</div> <!-- / scores area -->
         </div>
 	</div>
+	<nav class="navbar fixed-bottom navbar-light bg-light">
+  		<a class="navbar-brand" href="#">© 2021 Biz Tweak. All rights reserved</a>
+	</nav>
     <script src="https://canvasjs.com/assets/script/jquery-1.11.1.min.js"></script>
     <script src="https://canvasjs.com/assets/script/jquery.canvasjs.min.js"></script>
 </body>

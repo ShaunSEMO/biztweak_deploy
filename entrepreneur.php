@@ -1138,10 +1138,10 @@ $progress_per = $assessment->progress_bar($logged_user_id);
 </div>
 <div class="clear"></div>
 
-<!--
+
 <nav class="navbar fixed-bottom navbar-light bg-light">
-      <a class="navbar-brand" href="#">© 2020 Biz Tweak. All rights reserved</a>
-</nav> -->
+      <a class="navbar-brand" href="#">© 2021 Biz Tweak. All rights reserved</a>
+</nav>
 <?php if ($user_info->choice == '' || empty($user_info->choice)): ?>
     <div class="modal fade in" id="info-modal" style="background-color: rgba(0,0,0,.6);" data-backdrop="false">
         <div class="modal-dialog">
