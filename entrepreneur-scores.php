@@ -81,6 +81,8 @@
 <html>
 <head>
     <title>Biz Tweak | Scores</title>
+	<link rel="icon" href="images/logo_short.png">
+
 	<!-- Meta tags -->
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">

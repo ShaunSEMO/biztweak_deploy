@@ -122,6 +122,8 @@ $progress_per = $assessment->progress_bar($logged_user_id);
 
 <head>
     <title>Biz Tweak | Entrepreneur</title>
+	<link rel="icon" href="images/logo_short.png">
+
     <!-- Meta tags -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
