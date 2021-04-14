@@ -75,7 +75,7 @@
 
 				<!-- copyright -->
 				<div class="copy-right">
-					<p>© 2020 Biz Tweak. All rights reserved
+					<p>© 2021 Biz Tweak. All rights reserved
 				</div>
 				<!-- //copyright -->
 			</div>
