@@ -1,6 +1,9 @@
 <?php
     include 'includes/header.php';
     $user_scores = array();
+    include_once('answers_fetch.php');
+    $answers_query = "SELECT * FROM q_answers WHERE user_id='$logged_user_id'";
+    $answers_result = mysqli_query($answers_query);
     $user_id = $logged_user_id;
     $user_name = $user_info->name;
     $consultant_id = $db->query("SELECT consultant_id FROM relation WHERE entrepreneur_id='$logged_user_id'")->fetch_assoc()['consultant_id'];
@@ -621,6 +624,7 @@ input[type="radio"] {
                 <!-- Modal body -->
                 <div class="modal-body">
                     <p>The following are the topics and learning content you need to read and implement in order to improve the processes, systems in your business, as well as business performance</p>
+
                     <?php
                         $recs = [];
                         if($market_viability < 80){
@@ -727,6 +731,19 @@ input[type="radio"] {
                         ];
                         ?>
                         <div >
+
+                        <!-- Required recommendations edit -->
+                    
+                        <?php 
+                            while($rows=mysqli_fetch_assoc($answers_result)){
+                        ?>
+                            <h1><?= $rows['yes_answer'] ?> here</h1>
+                        <?php
+                            } 
+                        ?>
+                                
+                        <!-- //Required recommendations edit -->
+
                         <?php
                         $i = 0;
                         foreach ($recs as $key => $rec):

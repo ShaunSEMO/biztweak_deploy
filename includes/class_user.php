@@ -55,7 +55,11 @@ class user {
     public function save_biz_info($user_id,
                                   $name, $number, $date,
                                   $address, $bio, $phase,
-                                  $industry, $offering,$turnover, $employees){
+                                  $industry, $offering,$turnover, 
+                                  $employees, $business_duration, 
+                                  $physical_location, $duration_on_premise, 
+                                  $avg_6mo_turnover, $acc_bank, 
+                                  $card_turnover, $eft_turnover, $cash_turnover){
         global $db;
         if ($db->query("SELECT * FROM businesses WHERE user_id='$user_id'")->num_rows > 0) {
             $query = "UPDATE businesses
@@ -68,7 +72,15 @@ class user {
             industry = '$industry',
             offering = '$offering',
             turnover = '$turnover',
-            employees = '$employees'
+            employees = '$employees',
+            business_duration = '$business_duration',
+            physical_location = '$physical_location',
+            duration_on_premise = '$duration_on_premise',
+            avg_6mo_turnover = '$avg_6mo_turnover',
+            acc_bank = '$acc_bank',
+            card_turnover_% = '$card_turnover',
+            cash_turnover_% = '$cash_turnover',
+            eft_turnover_% = '$eft_turnover'
             WHERE user_id = '$user_id'";
         }else{
             $query = "INSERT INTO businesses
@@ -82,7 +94,15 @@ class user {
             offering = '$offering',
             user_id = '$user_id',
             turnover = '$turnover',
-            employees = '$employees'";
+            employees = '$employees',
+            business_duration = '$business_duration',
+            physical_location = '$physical_location',
+            duration_on_premise = '$duration_on_premise',
+            avg_6mo_turnover = '$avg_6mo_turnover',
+            acc_bank = '$acc_bank',
+            card_turnover_% = '$card_turnover',
+            cash_turnover_% = '$cash_turnover',
+            eft_turnover_% = '$eft_turnover'";
         }
         echo $query;
         $db->query($query);
