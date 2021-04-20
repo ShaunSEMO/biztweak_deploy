@@ -766,10 +766,10 @@
                   </table>
                   <br>
                   <br>
-                    <div class="summary-btn score-btn <?php if (!isset($assessment_completed) OR is_nan($assessment_completed) OR $assessment_completed < 99.9): ?>d-none<?php endif; ?>">
+                    <div class="summary-btn score-btn ">
                         <!-- <a href="entrepreneur-scores.php"><i class="fa fa-sticky-note-o" aria-hidden="true"></i> See my report</a> -->
                         <a class="glow" href="entrepreneur-summary.php"><i class="fa fa-sticky-note-o" aria-hidden="true"></i> Report Summary</a>
-                    </div>
+                </div>
                </div>
                <!--/ business concept section -->
                <!-- business structure section -->
