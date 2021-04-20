@@ -334,13 +334,6 @@
                         <label for="business_duration">Start date</label>
                         <input type="date" name="business_duration" value="<?php echo $business_info->business_duration; ?>"/>
                      </p>
-
-                     <br>
-                     <p>
-                        <span>What is the physical address of your business?</span>
-                        <input type="text" name="physical_location"  value="<?php echo $business_info->physical_location; ?>"/>
-                     </p>
-
                      <br>
                      <p>
                         <span>How long has your business been operating on the premises?</span>
