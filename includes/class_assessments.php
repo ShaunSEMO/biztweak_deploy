@@ -223,15 +223,6 @@ class assessments{
             $employees = $business_info->employees;
             $turnover = $business_info->turnover;
             $incomplete_assessments = $this->get_incomplete_assessment($user_id);
-            $business_duration = $business_info->business_duration;
-            $physical_location = $business_info->physical_location;
-            $duration_on_premise = $business_info->duration_on_premise;
-            $avg_6mo_turnover = $business_info->avg_6mo_turnover;
-            $acc_bank = $business_info->acc_bank;
-            $card_turnover = $business_info->card_turnover;
-            $cash_turnover = $business_info->cash_turnover;
-            $eft_turnover = $business_info->eft_turnover;
-
             $i_assess = implode(", ",$incomplete_assessments);
             // incompleted assessments
             if ($num_asses < 90){
@@ -255,15 +246,6 @@ class assessments{
                             </ul>
                         </div>
                     </td>
-                    <td>'.$business_duration.'</td>
-                    <td>'.$physical_location.'</td>
-                    <td>'.$duration_on_premise.'</td>
-                    <td>'.$avg_6mo_turnover.'</td>
-                    <td>'.$acc_bank.'</td>
-                    <td>'.$card_turnover.'</td>
-                    <td>'.$cash_turnover.'</td>
-                    <td>'.$eft_turnover.'</td>
-
                 </tr>
                 ';
             }

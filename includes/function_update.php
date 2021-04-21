@@ -25,15 +25,7 @@
             $offering = $_POST['offering'];
             $turnover = $_POST['turnover'];
             $employees = $_POST['employees'];
-            $business_duration = $_POST['business_duration'];
-            $physical_location = $_POST['physical_location'];
-            $duration_on_premise = $_POST['duration_on_premise'];
-            $avg_6mo_turnover = $_POST['avg_6mo_turnover'];
-            $acc_bank = $_POST['acc_bank'];
-            $card_turnover = $_POST['card_turnover'];
-            $cash_turnover = $_POST['cash_turnover'];
-            $eft_turnover = $_POST['eft_turnover'];
-            $logged_user->save_biz_info($user_id, $name, $number, $date, $address, $bio, $phase, $industry, $offering, $turnover, $employees, $business_duration, $physical_location, $duration_on_premise, $avg_6mo_turnover, $acc_bank, $card_turnover, $cash_turnover, $eft_turnover);
+            $logged_user->save_biz_info($user_id, $name, $number, $date, $address, $bio, $phase, $industry, $offering, $turnover, $employees);
         }
 
         // save question responses

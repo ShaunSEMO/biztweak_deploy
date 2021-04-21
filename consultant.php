@@ -157,14 +157,6 @@
 									<th>Employees</th>
 									<th>Turnover</th>
 									<th>Areas not completed</th>
-									<th>Business Operation Duration</th>
-									<th>Busines Location</th>
-									<th>Duration on premises</th>
-									<th>Avg turnover in past 6 months</th>
-									<th>Bank</th>
-									<th>Card turnover %</th>
-									<th>Cash turnover %</th>
-									<th>EFT turnover %</th>
 		                   		</tr>
 	                    	</thead>
 							<tbody>
