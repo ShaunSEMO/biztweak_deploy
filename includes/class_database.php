@@ -10,6 +10,9 @@
 
             // $mysqli = mysqli_connect("127.0.0.1", "root", "", "biztweak_db");
              $mysqli = mysqli_connect("db-biztweak.cwa2ohztrnrz.eu-west-1.rds.amazonaws.com", "root", "tweakbizcoza", "biztweak_db");
+
+            // Version test
+
             if (mysqli_connect_errno()) {
                 echo mysqli_connect_error();
                 header("location: error.php");
